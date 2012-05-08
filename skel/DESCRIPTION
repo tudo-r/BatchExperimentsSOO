@@ -1,0 +1,11 @@
+Package: BatchExperimentsSOO
+Title: Execute benchmark experiments for single-objective optimization and analyse the results.
+Description: Execute benchmark experiments for single-objective optimization and analyse the results.
+Author: Bernd Bischl <bernd_bischl@gmx.net>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+License: BSD
+Depends: BatchExperiments, soobench
+Suggests: cmaes, DEoptim, GenSA, pso
+LazyData: yes
+ByteCompile: yes
+Version: 1.0
