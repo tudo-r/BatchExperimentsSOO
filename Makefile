@@ -30,6 +30,7 @@ roxygenize: clean
 	echo "Setting version ..."
 	${RSCRIPT} ../tools/set-version
 	${DELETE} pkg/inst
+	find pkg -type d -name .svn  | xargs rm -fR
 
 package: roxygenize
 	echo "Building package file ..."
